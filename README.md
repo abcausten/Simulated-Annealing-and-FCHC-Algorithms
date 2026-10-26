@@ -57,15 +57,22 @@ The same loop without temperature: generate a random neighbor, and move to it **
 Both solve simulated annelaing and solve hill climbing will return `true` if a solution was found and `false` otherwise. In either case, `Sol` contains the final board (the solution, or the last state reached). Hill Climbing has a much lower solution rate which will be more evident in the 1000 and 5000 run output. 
 
 This is an example of the graph for the final solution for solve SimulatedAnnealing. 
+
+### Example Solution
+
+This is the output of a simulated annealing solution with the graphing function. Row 7 is at the top, row 0 at the bottom; `Q` marks a queen.
+
+```
 Simulated annealing: solved, final score 0
-. . Q . . . . . 
-. . . . . Q . . 
-. Q . . . . . . 
-. . . . . . Q . 
-Q . . . . . . . 
-. . . Q . . . . 
-. . . . . . . Q 
-. . . . Q . . . 
+. . Q . . . . .
+. . . . . Q . .
+. Q . . . . . .
+. . . . . . Q .
+Q . . . . . . .
+. . . Q . . . .
+. . . . . . . Q
+. . . . Q . . .
+```
 
 There will be the format for the output of the 1000 and 5000 tests.
 ### Success Rate
